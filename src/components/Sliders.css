@@ -1,0 +1,38 @@
+/* ===================================== Slider CSS ================================== */
+.slider-detail {
+    padding-top: 25px; }
+    .slider-detail .carousel-caption {
+      text-align: left;
+      bottom: 110px; }
+      .slider-detail .carousel-caption h5 {
+        font-size: 44px;
+        margin-left: -40px; }
+      .slider-detail .carousel-caption p {
+        margin-left: -40px;
+        font-weight: 600;
+        margin-top: 40px;
+        font-size: 19px; }
+    .slider-detail .vbh {
+      margin-left: -40px; }
+      .slider-detail .vbh .btn {
+        padding: 10px;
+        border: 1px solid rgb(229, 229, 231);
+        margin-bottom: 120px;
+        font-weight: 600;
+        font-size: 18px;
+        color: rgb(239, 239, 243);
+        background-color: #1a0a72;
+       }
+    .slider-detail .vdg-cur {
+      color: #1aaa55; }
+      .slider-detail img{
+         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(71, 11, 11, 0.19);
+         padding-right: 10px;
+         padding-left: 10px;
+          height: 360px;
+      }
+    .btn .btn-primary{
+      width: 50px;
+    }
+
+    

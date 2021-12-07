@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body{
+    font-family: "Roboto Condensed" Verdana;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  /********Navigation Bar********/
+  
+  :root{
+    --primary-white : white;
+    --primary-orange : #f75e07;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .logo{
+    width:150px;
+    height:80px; 
+    /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  border-radius: 10%;
   }
-}
+  
+  /*******Meni-links*******/
+  
+  nav a.nav-link{
+    margin-left: 30px;
+    letter-spacing: 0.0400;
+    cursor: pointer;
+  }
+  
+  nav ul li{
+    text-transform: uppercase;
+  }
+  nav ul{
+    margin-left: 20px;
+  }
+  .navbar-nav > li > a{
+    color:var(--primary-white) !important;
+  }
+  
+  .navbar-nav > li > a.active , .navbar-nav > li > a.active:focus {
+    border-top: 2px solid var(--primary-orange);
+  }
+  
+  .navbar-nav > li > a:hover {
+    border-top: 2px solid var(--primary-orange);
+  }
+  
+  /*********** HEADER **********/
+
+.header-wrapper {
+    position: relative;
+    background-image: url(bgTheme.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+  }
+  
+  .main-info h1{
+    padding-top: 30px;
+    font-family:'san-serif';
+    font-weight: bold;
+    color: rgb(27, 6, 100);
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+  .main-info {
+    text-align: center;
+    font-family:'san-serif';
+    font-size: 25px;
+  }
+  
+  
