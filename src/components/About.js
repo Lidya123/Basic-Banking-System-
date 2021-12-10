@@ -16,7 +16,7 @@ const About = () => {
                 </p>
                 <p>  <GrDocumentPpt 
                     style={{ fontSize:"35px"}} />
-                    <a  href=""> PPT on basic-banking-system</a>
+                    <a  href="https://www.canva.com/design/DAEyI2AFxIY/mzAllr7pKnKhI-sH6YRmgw/view?utm_content=DAEyI2AFxIY&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"> PPT on basic-banking-system</a>
                 </p></div>
             </div>
         </div>
