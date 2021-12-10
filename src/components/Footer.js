@@ -21,7 +21,7 @@ const Footer = () => {
                 <div className="col-md-4 col-sm-12 map-img">
                     <address className="md-margin-bottom-40" style={textclr}>
                         <SiGmail /> <a href="mailto:lidyajuliet@gmail.com" >lidyajuliet@gmail.com</a><br/>
-                       <FaGithub /> <a href="https://github.com/Lidya123" >github.com/Lidya123</a><br/>
+                       <FaGithub /> <a href="git@github.com:Lidya123/Basic-Banking-System-.git" >github.com/Lidya123</a><br/>
                        <FaLinkedin /> <a href="https://www.linkedin.com/in/lidya-simon-b083081ab" >linkedin.com/in/lidya-simon</a>
 
                     </address>

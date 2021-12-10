@@ -12,7 +12,7 @@ const About = () => {
                 <div className='count'>
                 <p>  <GrGithub 
                     style={{ fontSize:"35px"}} />
-                    <a  href="https://github.com/Lidya123"> GitHub basic-banking-system</a>
+                    <a  href="git@github.com:Lidya123/Basic-Banking-System-.git"> GitHub basic-banking-system</a>
                 </p>
                 <p>  <GrDocumentPpt 
                     style={{ fontSize:"35px"}} />
