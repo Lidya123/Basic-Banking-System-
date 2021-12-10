@@ -59,7 +59,7 @@ const Transfer = () => {
     <div className="container" >
     <form className='add-form' method = "POST">
     <div className='form-control' >
-        <label htmlFor="name">Tranfer from: </label>
+        <label htmlFor="name">Transfer from: </label>
         <input 
         type="number"
         name="sender"
