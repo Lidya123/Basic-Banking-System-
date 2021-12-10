@@ -1,14 +1,10 @@
 import React from 'react'
 import Typed from 'react-typed'
-import Footer from './Footer'
-import NavBar from './NavBar'
 import Sliders from './Sliders'
-
 
 const Header = () => {
     return (
         <>
-        <NavBar/>
         <div className="header-wrapper">
             <div className="main-info" >
                 <h1> Basic Banking System </h1>
@@ -20,9 +16,9 @@ const Header = () => {
                     loop
                 />
                 <Sliders />
-            </div>   
+            
+            </div>
         </div>
-        <Footer/>
         </>
     )
 }

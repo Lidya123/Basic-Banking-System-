@@ -8,10 +8,15 @@
         font-size: 44px;
         margin-left: -40px; }
       .slider-detail .carousel-caption p {
-        margin-left: -40px;
-        font-weight: 600;
-        margin-top: 40px;
-        font-size: 19px; }
+        margin-left: -150px;
+        font-family: sans-serif;
+        font-weight: 50;
+        color: rgb(244, 245, 248);
+        text-align: center;
+        margin-bottom: 75px;
+        width: 700px;
+        padding-left: 0px;
+        font-size: 20px; }
     .slider-detail .vbh {
       margin-left: -40px; }
       .slider-detail .vbh .btn {
@@ -21,14 +26,14 @@
         font-weight: 600;
         font-size: 18px;
         color: rgb(239, 239, 243);
-        background-color: #1a0a72;
+        background-color: #433594;
        }
     .slider-detail .vdg-cur {
       color: #1aaa55; }
       .slider-detail img{
          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(71, 11, 11, 0.19);
-         padding-right: 10px;
-         padding-left: 10px;
+         padding-right: 50px;
+         padding-left: 50px;
           height: 360px;
       }
     .btn .btn-primary{

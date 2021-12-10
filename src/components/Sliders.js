@@ -31,8 +31,14 @@ const Sliders = () => {
               alt="First slide"
             />
             <div className="carousel-caption d-none d-md-block">
-              {/* <h5 className="animated bounceInDown">Covid-19 Detection</h5> */}
-              <p className="animated bounceInLeft">  
+              
+              <p className="animated bounceInLeft" >  
+              This is a simple credit management 
+              system given in sparks foundation internship program. 
+              There are dummy users which are used to transfer
+              credits between them and show the transaction history 
+              between the users.  
+              
               </p>
             </div>
           </div>

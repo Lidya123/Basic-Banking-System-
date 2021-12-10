@@ -45,7 +45,7 @@ body{
   
   /*********** HEADER **********/
 
-.header-wrapper {
+  .header-wrapper {
     position: relative;
     background-image: url(bgTheme.jpg);
     background-size: cover;

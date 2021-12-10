@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../bank.jpg';
-import {BrowserRouter, Link} from 'react-router-dom'
+import {BrowserRouter} from 'react-router-dom'
 //react fontawesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars } from "@fortawesome/free-solid-svg-icons"
@@ -32,7 +32,7 @@ const NavBar = () => {
             <a class="nav-link" href="/components/TransHistory">Transcation History</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/#">Guide</a>
+            <a class="nav-link" href="/components/About">About</a>
           </li>
           </BrowserRouter>
         </ul>
