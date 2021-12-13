@@ -29,7 +29,7 @@ const Footer = () => {
                 <div className="col-md-4 col-sm-12">
                     <h3 style={textclr}>Useful Links</h3>
                     <ul className="list-unstyled link-list">
-                        <li><a style={textclr}><BsBoxArrowLeft style={{fontSize:"30px",marginLeft:"60px"}}/></a><i className="fa fa-angle-right"></i></li>
+                        <li><p style={textclr}><BsBoxArrowLeft style={{fontSize:"30px",marginLeft:"60px"}}/></p><i className="fa fa-angle-right"></i></li>
                     </ul>
                 </div>
                 

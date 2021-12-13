@@ -18,6 +18,7 @@ code {
   overflow: auto;
   padding: 20px;
   border-radius: 5px;
+  align-items: center;
 }
 
 .logo{
@@ -89,10 +90,19 @@ th {
   color: white;
 }
 
+.content-table{
+  width: 500px;
+  margin:0 auto;
+}
 .content{
-  padding: 100px 500px;
-  justify-content: center;
-  background-image: url(bgTheme.jpg);
+  overflow: auto;
+  position: relative;
+    background-image: url(bgTheme.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+  border-radius: 5px;
+  padding: 20px 20px;
 }
 
 /******** About Section *******/
@@ -104,7 +114,7 @@ th {
   background-color: rgb(139, 204, 241);
   padding-left: 50px;
   justify-content: center;
-  display: inline-flexbox;
+  display:flexbox;
 }
 
 #about{

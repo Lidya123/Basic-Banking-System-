@@ -56,7 +56,7 @@ const Transfer = () => {
     };
 
   return (
-    <div className="container" >
+    <div className="content" >
     <form className='add-form' method = "POST">
     <div className='form-control' >
         <label htmlFor="name">Transfer from: </label>
@@ -106,73 +106,3 @@ const Transfer = () => {
 export default Transfer;
 
 
-
-
-// const Transfer = () => {
-
-//     return (
-          
-//     <div class="container" css={CSS}>
-//     <img src='/images/img-2.jpg' />
-//     <div id='login-form'class='login-page'>
-//       <div class="form-box">
-//       <h1>Transfer Money</h1>
-      
-       
-    
-//       <form id="login" class="input-group-login" onSubmit={handleSubmit}>
-        
-//           <b><label htmlFor="sender" className="label">
-//             Transfer from:
-//           </label></b>
-//           <input
-//             type="number"
-            
-//             name="sender"
-//             class="input-field"
-           
-//             value={state.sender}
-//             onChange={(e) => setState({ ...state, sender: e.target.value })}
-//           />
-        
-        
-//           <b><label htmlFor="receiver" className="label">
-//             Transfer to:
-//           </label></b><br/>
-//           <input
-//             type="number"
-            
-//             name="receiver"
-//             class="input-field"
-            
-//             value={state.receiver}
-//             onChange={(e) => setState({ ...state, receiver: e.target.value })}
-//           />
-        
-        
-//           <b><label htmlFor="from" className="label">
-//             Enter Amount:
-//           </label></b> <br></br>
-//           <input
-//             type="number"
-//             min={1}
-//             name="sender"
-//             class="input-field"
-            
-//             value={state.amount}
-//             onChange={(e) => setState({ ...state, amount: e.target.value })}
-//           /><br/>
-//          <br/>
-//           <button type="submit" class='submit-btn'><b>
-//             Transfer </b>
-//           </button>
-        
-//       </form>
-//     </div>
-//     </div>
-//     </div>
-//   );
-//     )
-// }
-
-// export default Transfer

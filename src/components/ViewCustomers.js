@@ -19,7 +19,8 @@ import {FcMoneyTransfer} from 'react-icons/fc'
  //
  render() {
     return (
-       <div className="content">
+
+       <div className="content" >
           <table className="content-table">
              <thead>
                 <tr>

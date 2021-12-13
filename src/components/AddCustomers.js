@@ -51,7 +51,7 @@ const AddCustomers = () => {
     };
 
   return (
-    <div className="container" >
+    <div className="content" >
     <form className='add-form' method = "POST">
     <div className='form-control' >
         <label htmlFor="name">Customer Name</label>

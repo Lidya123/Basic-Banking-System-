@@ -23,11 +23,11 @@ const Sliders = () => {
           <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
 
         </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
             <img
               src={slide1}
-              class="d-block w-100"
+              className="d-block w-100"
               alt="First slide"
             />
             <div className="carousel-caption d-none d-md-block">

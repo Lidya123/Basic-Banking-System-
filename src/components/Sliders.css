@@ -32,12 +32,14 @@
       color: #1aaa55; }
       .slider-detail img{
          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(71, 11, 11, 0.19);
+         display: flex;
          padding-right: 50px;
          padding-left: 50px;
           height: 360px;
       }
     .btn .btn-primary{
       width: 50px;
+      display: flexbox;
     }
 
     
