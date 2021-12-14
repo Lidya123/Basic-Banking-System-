@@ -14,7 +14,7 @@ code {
 }
 
 .container {
-  max-width: 300px;
+  max-width: 800px;
   overflow: auto;
   padding: 20px;
   border-radius: 5px;
@@ -125,3 +125,4 @@ th {
   column-count: 2;
   column-gap: 50px;
 }
+

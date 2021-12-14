@@ -1,8 +1,6 @@
 import React from 'react'
-import "bootstrap/dist/css/bootstrap.min.css"
 import {FaGithub,FaLinkedin} from 'react-icons/fa'
 import {SiGmail} from 'react-icons/si'
-import {BsBoxArrowLeft} from 'react-icons/bs'
 
 const textclr ={
     color: 'whitesmoke'
@@ -14,23 +12,17 @@ const Footer = () => {
          <footer className="footer bg-dark" >
         <div className="container">
             <div className="row">
-                <div className="col-md-4 col-sm-12 ">
+                <div className="col-md-6 col-sm-12 ">
                     <p style={textclr}>Sparks Task 1:</p>
                     <p style={textclr}> Basic Banking System</p>
                 </div>
-                <div className="col-md-4 col-sm-12 map-img">
+                <div className="col-md-6 col-sm-12 ">
                     <address className="md-margin-bottom-40" style={textclr}>
                         <SiGmail /> <a href="mailto:lidyajuliet@gmail.com" >lidyajuliet@gmail.com</a><br/>
                        <FaGithub /> <a href="git@github.com:Lidya123/Basic-Banking-System-.git" >github.com/Lidya123</a><br/>
                        <FaLinkedin /> <a href="https://www.linkedin.com/in/lidya-simon-b083081ab" >linkedin.com/in/lidya-simon</a>
 
                     </address>
-                </div>
-                <div className="col-md-4 col-sm-12">
-                    <h3 style={textclr}>Useful Links</h3>
-                    <ul className="list-unstyled link-list">
-                        <li><p style={textclr}><BsBoxArrowLeft style={{fontSize:"30px",marginLeft:"60px"}}/></p><i className="fa fa-angle-right"></i></li>
-                    </ul>
                 </div>
                 
             </div>
